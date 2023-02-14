@@ -13,8 +13,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 188
-    length: 26
+  - offset: 187
+    length: 0
     placeholder_text: '# TODO написать класс Book'
     dependency:
       section: Атрибуты и методы
@@ -28,19 +28,19 @@ files:
       offset: 188
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       class Book:
           ...
-  - offset: 217
-    length: 29
+  - offset: 506
+    length: 1
     placeholder_text: '# TODO написать класс Library'
     initial_state:
       length: 29
       offset: 217
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       class Library:
           ...
@@ -77,5 +77,8 @@ files:
 
         print(library_with_books.get_index_by_book_id(1))  # проверяем индекс книги с id = 1
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Jan 2023 20:06:28 UTC"
 record: -1
